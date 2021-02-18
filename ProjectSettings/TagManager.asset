@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - playerSize1
+  - playerSize2
+  - playerSize3
+  - playerSize4
+  - foodSize1
+  - foodSize2
+  - foodSize3
+  - foodSize4
+  - HealthyFood
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Edible
+  - Water
+  - UI
+  - Checkpoint
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
