@@ -14,6 +14,8 @@ TagManager:
   - foodSize3
   - foodSize4
   - HealthyFood
+  - Breakable
+  - Hurt
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Water
   - UI
   - Checkpoint
-  - 
+  - Breakable
   - 
   - 
   - 
