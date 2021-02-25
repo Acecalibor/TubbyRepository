@@ -47,17 +47,17 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
+    name: Check Children
+    startState: Check Children
     states:
-    - name: State 1
+    - name: Check Children
       description: 
-      colorIndex: 0
+      colorIndex: 4
       position:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 100
+        width: 119
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
           name: respawn
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Delay
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000001000000
-    - name: State 2
+    - name: Respawn Broccoli
       description: 
-      colorIndex: 0
+      colorIndex: 5
       position:
         serializedVersion: 2
-        x: 156
-        y: 245
-        width: 100
+        x: 224
+        y: 224
+        width: 134
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Check Children
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -230,13 +230,13 @@ MonoBehaviour:
         - storeObject
         paramDataPos: 0000000001000000000000000100000002000000
         paramByteDataSize: 0000000000000000000000000000000000000000
-    - name: State 3
+    - name: Delay
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 294
-        y: 117
+        x: 416
+        y: 112
         width: 100
         height: 32
       isBreakpoint: 0
@@ -247,7 +247,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 2
+        toState: Respawn Broccoli
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
