@@ -6717,14 +6717,14 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Respawn
-    startState: State 1
+    startState: Set Global Respawn
     states:
     - name: Idle
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 64
+        x: 112
         y: 256
         width: 100
         height: 16
@@ -6776,7 +6776,7 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 224
+        x: 272
         y: 112
         width: 106
         height: 32
@@ -6788,7 +6788,7 @@ MonoBehaviour:
           name: goToDeath
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Restart Level
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -6994,7 +6994,7 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 63
+        x: 111
         y: 181
         width: 100
         height: 32
@@ -7207,14 +7207,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000002000000000000000000000001000000040000000200000008000000030000000c0000000000000001000000020000000000000000000000100000000000000003000000030000000400000005000000060000000100000011000000
         paramByteDataSize: 00000000000000000000000000000000040000000000000004000000000000000400000000000000040000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
-    - name: State 1
+    - name: Set Global Respawn
       description: 
       colorIndex: 5
       position:
         serializedVersion: 2
         x: 64
         y: 112
-        width: 100
+        width: 147
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -7399,14 +7399,14 @@ MonoBehaviour:
         - realTime
         paramDataPos: 0000000000000000000000000100000002000000000000000400000005000000010000000000000001000000000000000600000000000000000000000300000007000000040000000100000008000000
         paramByteDataSize: 0000000000000000000000000000000000000000040000000100000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
-    - name: State 3
+    - name: Restart Level
       description: 
-      colorIndex: 0
+      colorIndex: 5
       position:
         serializedVersion: 2
-        x: 224
+        x: 272
         y: 176
-        width: 100
+        width: 108
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -13136,7 +13136,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3928082898956004944}
-  m_LocalRotation: {x: 0.07917219, y: -0.000000008576185, z: 6.811334e-10, w: 0.996861}
+  m_LocalRotation: {x: 0.07917219, y: 0.000000008576185, z: -6.811334e-10, w: 0.996861}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13874,7 +13874,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8900974455701218378}
-  m_LocalRotation: {x: 0.061026704, y: -0.000000017307967, z: 0.0000000010582204, w: 0.99813616}
+  m_LocalRotation: {x: 0.061026704, y: 0.000000017307967, z: -0.0000000010582204, w: 0.99813616}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

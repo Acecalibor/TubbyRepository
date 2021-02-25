@@ -243,7 +243,7 @@ MonoBehaviour:
     states:
     - name: Listener
       description: 
-      colorIndex: 0
+      colorIndex: 4
       position:
         serializedVersion: 2
         x: 64
@@ -415,7 +415,7 @@ MonoBehaviour:
         paramByteDataSize: 0000000004000000000000000000000000000000000000000400000000000000000000000000000000000000040000000000000000000000000000000000000004000000000000000000000000000000
     - name: Teleport
       description: 
-      colorIndex: 0
+      colorIndex: 5
       position:
         serializedVersion: 2
         x: 368
@@ -570,7 +570,7 @@ MonoBehaviour:
         paramByteDataSize: 000000000000000000000000000000000000000004000000010000000000000000000000000000000000000000000000040000000100000001000000000000000000000001000000
     - name: CheckTag
       description: 
-      colorIndex: 0
+      colorIndex: 4
       position:
         serializedVersion: 2
         x: 224
