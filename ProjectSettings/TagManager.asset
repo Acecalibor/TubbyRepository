@@ -16,6 +16,9 @@ TagManager:
   - HealthyFood
   - Breakable
   - Hurt
+  - Breakable1
+  - Breakable2
+  - Breakable3
   layers:
   - Default
   - TransparentFX
