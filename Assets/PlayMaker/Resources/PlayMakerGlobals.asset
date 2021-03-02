@@ -64,3 +64,8 @@ MonoBehaviour:
   - Chase
   - Evade
   - Restart
+  - Size4Movement
+  - BaseRotate
+  - Size4Rotate
+  - Size4Initiate
+  - Size4Uninitiated
