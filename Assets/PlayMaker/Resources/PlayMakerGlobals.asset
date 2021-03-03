@@ -69,3 +69,5 @@ MonoBehaviour:
   - Size4Rotate
   - Size4Initiate
   - Size4Uninitiated
+  - Evading
+  - Patrolling
