@@ -503,7 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7452859634240192483}
   m_Layer: 0
-  m_Name: Size2EnemyCTRL
+  m_Name: BurgerEnemyCTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 7452859634586065469}
   - component: {fileID: 7452859634586065466}
   m_Layer: 3
-  m_Name: Size1EnemyNavMeshCTRL
+  m_Name: BurgerEnemyNavMeshCTRL
   m_TagString: foodSize2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
