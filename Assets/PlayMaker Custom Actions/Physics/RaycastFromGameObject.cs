@@ -121,7 +121,7 @@ namespace HutongGames.PlayMaker.Actions
 			if (didHit)
 			{
 				Fsm.Event(hitEvent);
-				storeHitObject.Value = hitInfo.collider.collider.gameObject;
+				storeHitObject.Value = hitInfo.collider.GetComponent<Collider>().gameObject;
 			}
 			
 			if (debug.Value)
