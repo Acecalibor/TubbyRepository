@@ -72,3 +72,5 @@ MonoBehaviour:
   - Evading
   - Patrolling
   - Attack
+  - Rotate
+  - lookAt
