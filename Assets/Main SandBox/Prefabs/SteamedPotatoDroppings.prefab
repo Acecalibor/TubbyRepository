@@ -552,7 +552,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 5
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
