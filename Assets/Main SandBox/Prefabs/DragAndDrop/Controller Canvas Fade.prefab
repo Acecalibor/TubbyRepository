@@ -865,7 +865,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 40
+        value: 30
       - useVariable: 1
         name: moveSpeedSize4
         tooltip: 
@@ -1045,13 +1045,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -15
+          value: -10
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 15
+          value: 10
         - useVariable: 1
           name: zVelocity
           tooltip: 
@@ -1063,13 +1063,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -15
+          value: -10
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 15
+          value: 10
         - useVariable: 1
           name: xVelocity
           tooltip: 
@@ -20327,7 +20327,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588603206402229079}
-  m_LocalRotation: {x: 0.34832913, y: -0.000000027935876, z: 0.000000010381018, w: 0.9373723}
+  m_LocalRotation: {x: 0.34832916, y: -0.000000016128787, z: 0.0000000059934844, w: 0.9373723}
   m_LocalPosition: {x: 5.4, y: 19.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

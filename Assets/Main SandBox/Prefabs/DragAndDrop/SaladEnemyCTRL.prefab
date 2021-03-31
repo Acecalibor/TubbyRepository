@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 626362804645206234}
   m_Layer: 3
   m_Name: SaladEnemyNavMeshCTRL
-  m_TagString: foodSize3
+  m_TagString: HealthyFood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3232,7 +3232,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 6
+            value: 5
           IntParameter:
             useVariable: 0
             name: 
@@ -3420,7 +3420,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 14
+            value: 7
           IntParameter:
             useVariable: 0
             name: 
@@ -3607,7 +3607,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
