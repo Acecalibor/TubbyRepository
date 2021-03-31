@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8773577350406863932}
   - component: {fileID: 4208121532497699776}
   m_Layer: 0
-  m_Name: Size4EnemyCTRL
+  m_Name: RamenEnemyCTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
