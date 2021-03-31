@@ -123,7 +123,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 147.31006, y: 139.4502}
+  m_AnchoredPosition: {x: 147.3086, y: 139.44922}
   m_SizeDelta: {x: 44.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &944063595344296107
@@ -904,7 +904,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -930,7 +930,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1207,7 +1207,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -1502,7 +1502,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1.5
+          value: 3
         - useVariable: 1
           name: 
           tooltip: 
@@ -1841,7 +1841,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1867,7 +1867,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -3640,7 +3640,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -3768,7 +3768,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -3896,7 +3896,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -4024,7 +4024,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -4367,7 +4367,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8097,7 +8097,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0101
         actionStartIndex: 0000000011000000
         actionHashCodes: 2edc0303c9f57904
         unityObjectParams: []
@@ -8818,7 +8818,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11640,7 +11640,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 13
+        value: 10
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -11679,12 +11679,12 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -11694,7 +11694,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -12518,13 +12518,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.FloatAdd
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 603dd905
+        actionHashCodes: 2a6e8a00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -12539,10 +12539,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12552,7 +12551,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.5
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -12560,18 +12560,19 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000
+        paramDataType: 0f0000000f0000000100000001000000
         paramName:
-        - intVariable
+        - floatVariable
         - add
         - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
+        - perSecond
+        paramDataPos: 00000000010000000000000001000000
+        paramByteDataSize: 00000000000000000100000001000000
     - name: EdibleCheck
       description: 
       colorIndex: 4
@@ -12603,13 +12604,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntCompare
+        - HutongGames.PlayMaker.Actions.FloatCompare
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 09faa102
+        actionHashCodes: 1bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -12624,10 +12625,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12637,7 +12637,14 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 2
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -12647,22 +12654,23 @@ MonoBehaviour:
         stringParams:
         - sizeUp
         - noSizeUp
-        - 
+        - sizeUp
         byteData: 01
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000017000000170000001700000001000000
+        paramDataType: 0f0000000f0000000f00000017000000170000001700000001000000
         paramName:
-        - integer1
-        - integer2
+        - float1
+        - float2
+        - tolerance
         - equal
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000100000000000000010000000200000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000010000000200000000000000010000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
     - name: SizeUp1-2
       description: 
       colorIndex: 5
@@ -12689,7 +12697,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.UiSliderSetValue
         - HutongGames.PlayMaker.Actions.UiSliderSetMinMax
         - HutongGames.PlayMaker.Actions.Wait
@@ -12702,9 +12710,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 01010000000000
+        actionIsOpen: 01010000010000
         actionStartIndex: 0000000004000000080000000b0000000e0000001200000017000000
-        actionHashCodes: 5e69bb045e69bb04603dd905603dd90552cb5203bf8a920348c01101
+        actionHashCodes: 5e69bb045e69bb04603dd9059845b30552cb5203bf8a920348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -12805,15 +12813,27 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12825,7 +12845,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: sizeUp2-3
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12840,7 +12860,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -12849,18 +12869,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 2
-        - useVariable: 1
-          name: EdibleCount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -12888,7 +12896,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f000000010000001f000000170000000f00000001000000100000001000000001000000100000001000000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
+        paramDataType: 1f000000170000000f000000010000001f000000170000000f000000010000001000000010000000010000000f0000000f00000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
         paramName:
         - eventTarget
         - sendEvent
@@ -12901,8 +12909,8 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        - intVariable
-        - intValue
+        - floatVariable
+        - floatValue
         - everyFrame
         - gameObject
         - value
@@ -12916,7 +12924,7 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000200000000000000040000000100000003000000040000000100000005000000050000000200000006000000
+        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000400000000000000040000000100000005000000060000000100000005000000070000000200000006000000
         paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: Add1forSize2
       description: 
@@ -12941,13 +12949,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.FloatAdd
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 603dd905
+        actionHashCodes: 2a6e8a00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -12962,10 +12970,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12975,7 +12982,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.5
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -12983,18 +12991,19 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000
+        paramDataType: 0f0000000f0000000100000001000000
         paramName:
-        - intVariable
+        - floatVariable
         - add
         - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
+        - perSecond
+        paramDataPos: 00000000010000000000000001000000
+        paramByteDataSize: 00000000000000000100000001000000
     - name: EdibleCheck 2
       description: 
       colorIndex: 4
@@ -13026,13 +13035,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntCompare
+        - HutongGames.PlayMaker.Actions.FloatCompare
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 09faa102
+        actionHashCodes: 1bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -13047,10 +13056,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13060,7 +13068,14 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 2
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -13070,22 +13085,23 @@ MonoBehaviour:
         stringParams:
         - sizeUp
         - noSizeUp
-        - 
+        - sizeUp
         byteData: 01
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000017000000170000001700000001000000
+        paramDataType: 0f0000000f0000000f00000017000000170000001700000001000000
         paramName:
-        - integer1
-        - integer2
+        - float1
+        - float2
+        - tolerance
         - equal
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000100000000000000010000000200000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000010000000200000000000000010000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
     - name: SizeUp2-3
       description: 
       colorIndex: 5
@@ -13112,7 +13128,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.UiSliderSetValue
         - HutongGames.PlayMaker.Actions.UiSliderSetMinMax
         - HutongGames.PlayMaker.Actions.Wait
@@ -13125,9 +13141,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
+        actionIsOpen: 01010100010101
         actionStartIndex: 0000000004000000080000000b0000000e0000001200000017000000
-        actionHashCodes: 5e69bb045e69bb04603dd905603dd90552cb5203bf8a920348c01101
+        actionHashCodes: 5e69bb045e69bb04603dd9059845b30552cb5203bf8a920348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -13228,15 +13244,27 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13248,7 +13276,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: sizeUp3-4
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13263,7 +13291,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -13272,18 +13300,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 3
-        - useVariable: 1
-          name: EdibleCount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -13311,7 +13327,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f000000010000001f000000170000000f00000001000000100000001000000001000000100000001000000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
+        paramDataType: 1f000000170000000f000000010000001f000000170000000f000000010000001000000010000000010000000f0000000f00000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
         paramName:
         - eventTarget
         - sendEvent
@@ -13324,8 +13340,8 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        - intVariable
-        - intValue
+        - floatVariable
+        - floatValue
         - everyFrame
         - gameObject
         - value
@@ -13339,7 +13355,7 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000200000000000000040000000100000003000000040000000100000005000000050000000200000006000000
+        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000400000000000000040000000100000005000000060000000100000005000000070000000200000006000000
         paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: Add1forSize3
       description: 
@@ -13364,13 +13380,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.FloatAdd
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 603dd905
+        actionHashCodes: 2a6e8a00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -13385,10 +13401,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13398,7 +13413,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.5
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -13406,18 +13422,19 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000
+        paramDataType: 0f0000000f0000000100000001000000
         paramName:
-        - intVariable
+        - floatVariable
         - add
         - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
+        - perSecond
+        paramDataPos: 00000000010000000000000001000000
+        paramByteDataSize: 00000000000000000100000001000000
     - name: EdibleCheck 3
       description: 
       colorIndex: 4
@@ -13449,13 +13466,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.IntCompare
+        - HutongGames.PlayMaker.Actions.FloatCompare
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 09faa102
+        actionHashCodes: 1bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -13470,10 +13487,9 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
+        fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13483,7 +13499,14 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 2
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -13493,22 +13516,23 @@ MonoBehaviour:
         stringParams:
         - sizeUp
         - noSizeUp
-        - 
+        - sizeUp
         byteData: 01
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000017000000170000001700000001000000
+        paramDataType: 0f0000000f0000000f00000017000000170000001700000001000000
         paramName:
-        - integer1
-        - integer2
+        - float1
+        - float2
+        - tolerance
         - equal
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000100000000000000010000000200000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000010000000200000000000000010000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
     - name: SizeUp3-4
       description: 
       colorIndex: 5
@@ -13535,7 +13559,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.UiSliderSetValue
         - HutongGames.PlayMaker.Actions.UiSliderSetMinMax
         - HutongGames.PlayMaker.Actions.Wait
@@ -13548,9 +13572,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
+        actionIsOpen: 01010100010101
         actionStartIndex: 0000000004000000080000000b0000000e0000001200000017000000
-        actionHashCodes: 5e69bb045e69bb04603dd905603dd90552cb5203bf8a920348c01101
+        actionHashCodes: 5e69bb045e69bb04603dd9059845b30552cb5203bf8a920348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -13651,15 +13675,27 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 0
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13686,7 +13722,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -13695,18 +13731,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 4
-        - useVariable: 1
-          name: EdibleCount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -13734,7 +13758,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f000000010000001f000000170000000f00000001000000100000001000000001000000100000001000000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
+        paramDataType: 1f000000170000000f000000010000001f000000170000000f000000010000001000000010000000010000000f0000000f00000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
         paramName:
         - eventTarget
         - sendEvent
@@ -13747,8 +13771,8 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        - intVariable
-        - intValue
+        - floatVariable
+        - floatValue
         - everyFrame
         - gameObject
         - value
@@ -13762,7 +13786,7 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000200000000000000040000000100000003000000040000000100000005000000050000000200000006000000
+        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000020000000300000003000000000000000400000000000000040000000100000005000000060000000100000005000000070000000200000006000000
         paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: SliderUpdate
       description: 
@@ -13820,7 +13844,7 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13918,7 +13942,7 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -14016,7 +14040,7 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: EdibleCount
+          name: edibleCount2
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -14127,7 +14151,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14139,7 +14163,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14151,7 +14175,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14228,7 +14252,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.UiSliderSetValue
         - HutongGames.PlayMaker.Actions.UiSliderSetMinMax
         - HutongGames.PlayMaker.Actions.Wait
@@ -14242,7 +14266,7 @@ MonoBehaviour:
         actionEnabled: 010101010101
         actionIsOpen: 000000000000
         actionStartIndex: 0000000004000000080000000b0000000f00000014000000
-        actionHashCodes: 5e69bb045e69bb04603dd90552cb5203bf8a920348c01101
+        actionHashCodes: 5e69bb045e69bb049845b30552cb5203bf8a920348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -14351,6 +14375,18 @@ MonoBehaviour:
           networkSync: 0
           value: 0.1
         - useVariable: 1
+          name: edibleCount2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
           name: EdibleCount
           tooltip: 
           showInInspector: 0
@@ -14365,7 +14401,7 @@ MonoBehaviour:
         - useVariable: 1
           name: sizeUp1-2
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 0
@@ -14374,19 +14410,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0.1
-        fsmIntParams:
-        - useVariable: 1
-          name: EdibleCount
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -14414,7 +14438,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f000000010000001f000000170000000f00000001000000100000001000000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
+        paramDataType: 1f000000170000000f000000010000001f000000170000000f000000010000000f0000000f00000001000000140000000f0000001100000001000000140000000f0000000f00000011000000010000000f0000001700000001000000
         paramName:
         - eventTarget
         - sendEvent
@@ -14424,8 +14448,8 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        - intVariable
-        - intValue
+        - floatVariable
+        - floatValue
         - everyFrame
         - gameObject
         - value
@@ -14439,7 +14463,7 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000000000000100000002000000000000000200000000000000030000000100000003000000040000000100000004000000050000000200000005000000
+        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000020000000300000002000000000000000400000000000000030000000100000005000000060000000100000004000000070000000200000005000000
         paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: RespawnClaculator
       description: 
@@ -14510,7 +14534,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14522,7 +14546,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14534,7 +14558,7 @@ MonoBehaviour:
         - useVariable: 1
           name: SizeTracker
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 0
@@ -14754,9 +14778,8 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      intVariables:
       - useVariable: 1
-        name: EdibleCount
+        name: edibleCount2
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -14779,10 +14802,35 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 2
+      intVariables:
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
       - useVariable: 1
         name: SizeTracker
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: 1
       boolVariables: []
@@ -14800,7 +14848,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -14810,7 +14858,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16981,7 +17029,7 @@ Transform:
   m_GameObject: {fileID: 944063596918840426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.2, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.5}
+  m_LocalScale: {x: 0.90000004, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 944063595417359314}
   m_RootOrder: 7
@@ -17079,7 +17127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &944063596999407732
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17212,7 +17260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 233.2002, y: 139.4497}
+  m_AnchoredPosition: {x: 233.19922, y: 139.44922}
   m_SizeDelta: {x: 18.39, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &944063597170278669
@@ -17453,7 +17501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: -12.06, y: 19.3, z: -18.41}
+  m_FollowOffset: {x: 0, y: 18.97, z: -22}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -17486,8 +17534,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544121369707197968}
-  m_LocalRotation: {x: 0.33753437, y: 0.2675974, z: -0.10071306, w: 0.89683837}
-  m_LocalPosition: {x: -6.6600003, y: 20.3, z: -18.41}
+  m_LocalRotation: {x: 0.34832913, y: 0.000000027935876, z: -0.000000010381018, w: 0.9373723}
+  m_LocalPosition: {x: 5.4, y: 19.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1544121369469621196}
@@ -20279,8 +20327,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588603206402229079}
-  m_LocalRotation: {x: 0.33753437, y: 0.2675974, z: -0.10071304, w: 0.89683837}
-  m_LocalPosition: {x: -12.06, y: 19.3, z: -18.41}
+  m_LocalRotation: {x: 0.3483291, y: -4.449965e-16, z: 1.077686e-15, w: 0.9373724}
+  m_LocalPosition: {x: 5.4, y: 19.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2588654301003058207}
