@@ -172,6 +172,8 @@ GameObject:
   - component: {fileID: 4480445270670290290}
   - component: {fileID: 4480445270670290288}
   - component: {fileID: 4932557693084537187}
+  - component: {fileID: 752080228466115398}
+  - component: {fileID: 5866849524388006081}
   m_Layer: 3
   m_Name: SlushieNavCTRL
   m_TagString: foodSize3
@@ -1041,7 +1043,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1075,7 +1077,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &4480445270670290288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2687,7 +2689,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2713,7 +2715,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -2721,7 +2723,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &4932557693084537187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3003,7 +3005,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -3030,14 +3032,42 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 0
+    handleLateUpdate: 1
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &752080228466115398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480445270670290284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4480445270670290288}
+--- !u!114 &5866849524388006081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480445270670290284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1079068393, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4932557693084537187}
 --- !u!1 &4480445270714162939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3262,6 +3292,7 @@ GameObject:
   - component: {fileID: 5590309332536995939}
   - component: {fileID: 8185780836605098997}
   - component: {fileID: 8820188473961579334}
+  - component: {fileID: 1021238993397813892}
   m_Layer: 0
   m_Name: PlayerColliderChecker
   m_TagString: Untagged
@@ -3368,6 +3399,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
+--- !u!114 &1021238993397813892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206651438384469137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -104615663, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs: []

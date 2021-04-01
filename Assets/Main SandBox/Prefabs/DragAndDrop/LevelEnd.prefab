@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1411909249018849143
+--- !u!1 &9143097058365465055
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6338291383561033191}
-  - component: {fileID: 5982893417012044821}
-  - component: {fileID: 6090297613081480755}
-  - component: {fileID: 2578283314530408802}
+  - component: {fileID: 9143097058365465044}
+  - component: {fileID: 9143097058365465043}
+  - component: {fileID: 9143097058365465042}
+  - component: {fileID: 9143097058365465041}
+  - component: {fileID: 9143097058365465040}
   m_Layer: 0
-  m_Name: Box
-  m_TagString: Breakable1
+  m_Name: LevelEnd
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6338291383561033191
+--- !u!4 &9143097058365465044
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411909249018849143}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.78, z: 0}
-  m_LocalScale: {x: 2.020611, y: 2.020611, z: 2.020611}
+  m_GameObject: {fileID: 9143097058365465055}
+  m_LocalRotation: {x: -0, y: -0.5892585, z: -0, w: 0.80794466}
+  m_LocalPosition: {x: 38.65, y: 95.643166, z: 170.77}
+  m_LocalScale: {x: 2.2347305, y: 2.23473, z: 2.2347305}
   m_Children: []
-  m_Father: {fileID: 8510550431809231995}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5982893417012044821
+  m_LocalEulerAnglesHint: {x: 0, y: 8.249, z: 0}
+--- !u!33 &9143097058365465043
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411909249018849143}
+  m_GameObject: {fileID: 9143097058365465055}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6090297613081480755
+--- !u!23 &9143097058365465042
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411909249018849143}
+  m_GameObject: {fileID: 9143097058365465055}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a51fc8286a52b314c9d874d822135ebd, type: 2}
+  - {fileID: 2100000, guid: 80e803ec6e24ba94d961dcbc4a7b9676, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,58 +83,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2578283314530408802
+--- !u!65 &9143097058365465041
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411909249018849143}
+  m_GameObject: {fileID: 9143097058365465055}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &5196678421850510783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8510550431809231995}
-  - component: {fileID: 6473505276498403304}
-  m_Layer: 0
-  m_Name: BoxCTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8510550431809231995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5196678421850510783}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.252, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6338291383561033191}
-  m_Father: {fileID: 8933983161835872615}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6473505276498403304
+  m_Size: {x: 1, y: 1.0097545, z: 1}
+  m_Center: {x: 0, y: 0.0048766476, z: 0}
+--- !u!114 &9143097058365465040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5196678421850510783}
+  m_GameObject: {fileID: 9143097058365465055}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -143,15 +112,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Listener
     states:
-    - name: State 1
+    - name: Listener
       description: 
-      colorIndex: 0
+      colorIndex: 4
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 63
+        y: 112
         width: 100
         height: 32
       isBreakpoint: 0
@@ -159,24 +128,30 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: spawnFood
+          name: teleport
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Next Level
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GameObjectHasChildren
+        - HutongGames.PlayMaker.Actions.TriggerEvent
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 16e9ed03
+        actionHashCodes: 9c512400
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: player
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
@@ -192,92 +167,13 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - 
-        - spawnFood
-        byteData: 01
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000017000000170000001100000001000000
-        paramName:
-        - gameObject
-        - trueEvent
-        - falseEvent
-        - storeResult
-        - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000001000000
-    - name: State 2
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 236
-        y: 102
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: bf83c900
-        unityObjectParams: []
-        fsmGameObjectParams:
+        fsmStringParams:
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 8319297528140850273, guid: 0a93ae01a94257b42b931570c3f569a1, type: 3}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 5196678421850510783}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
+          value: playerSize3
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -286,39 +182,156 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
-        fsmVector3Params:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
+        fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
+        stringParams:
+        - teleport
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 13000000130000001c0000001c00000013000000
+        paramDataType: 1400000007000000120000001700000013000000
         paramName:
         - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        paramDataPos: 0000000001000000000000000100000002000000
-        paramByteDataSize: 0000000000000000000000000000000000000000
+        - trigger
+        - collideTag
+        - sendEvent
+        - storeCollider
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000004000000000000000000000000000000
+    - name: Next Level
+      description: 
+      colorIndex: 5
+      position:
+        serializedVersion: 2
+        x: 221
+        y: 125
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetVector3Value
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.LoadScene
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 090b8901603dd90520a9b100
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Level_5
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          enumName: UnityEngine.SceneManagement.LoadSceneMode
+          intValue: 0
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: CheckpointSize
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: CheckpointPlacement
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 1, z: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 1, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        byteData: 010101000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1c0000001c000000010000001000000010000000010000000700000012000000100000002a000000110000001700000017000000
+        paramName:
+        - vector3Variable
+        - vector3Value
+        - everyFrame
+        - intVariable
+        - intValue
+        - everyFrame
+        - sceneReference
+        - sceneByName
+        - sceneAtIndex
+        - loadSceneMode
+        - success
+        - successEvent
+        - failureEvent
+        paramDataPos: 00000000010000000000000000000000010000000100000002000000000000000200000000000000000000000000000001000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000004000000000000000000000000000000000000000000000000000000
     events:
-    - name: spawnFood
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: noTeleport
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: teleport
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -328,11 +341,23 @@ MonoBehaviour:
       boolVariables: []
       stringVariables: []
       vector2Variables: []
-      vector3Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: targetPOS
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: player
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -340,7 +365,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -350,7 +375,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -384,35 +409,4 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
---- !u!1 &7713158556439724288
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8933983161835872615}
-  m_Layer: 0
-  m_Name: BoxPlacement
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8933983161835872615
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7713158556439724288}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.748, y: 0, z: 9.579}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8510550431809231995}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  eventHandlerComponentsAdded: 0

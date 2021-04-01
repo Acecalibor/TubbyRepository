@@ -21,9 +21,9 @@ EditorBuildSettings:
     path: Assets/Idividual Levels/Nat/Scenes/Level4.unity
     guid: 6fc68e50a2eca8443a0d11beff004497
   - enabled: 1
-    path: Assets/Idividual Levels/Kosta/Scenes/Level 2.unity
-    guid: b0de65178eebdbd4e83fb0f090bd1f73
-  - enabled: 1
     path: Assets/Idividual Levels/Terra/Scenes/level6.unity
     guid: 6a941818b00a25749bcfc2c06f2f0fef
+  - enabled: 1
+    path: Assets/Idividual Levels/Kosta/Scenes/Level 2.unity
+    guid: b0de65178eebdbd4e83fb0f090bd1f73
   m_configObjects: {}
