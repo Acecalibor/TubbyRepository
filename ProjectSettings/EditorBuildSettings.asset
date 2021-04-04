@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Main SandBox/Scenes/Sandbox.unity
     guid: 87ec0abf52f6804409c4737d4897577b
   - enabled: 1
+    path: Assets/Idividual Levels/Kosta/Scenes/Level 2.unity
+    guid: b0de65178eebdbd4e83fb0f090bd1f73
+  - enabled: 1
     path: Assets/Idividual Levels/Brianne/Scenes/Level3.unity
     guid: 8cee65c107795364db5b154824b56692
   - enabled: 1
@@ -23,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Idividual Levels/Terra/Scenes/level6.unity
     guid: 6a941818b00a25749bcfc2c06f2f0fef
-  - enabled: 1
-    path: Assets/Idividual Levels/Kosta/Scenes/Level 2.unity
-    guid: b0de65178eebdbd4e83fb0f090bd1f73
   m_configObjects: {}
