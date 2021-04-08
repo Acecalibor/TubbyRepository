@@ -421,6 +421,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7452859634240192483}
     m_Modifications:
+    - target: {fileID: 119148870847975299, guid: 51066fafaa7ab93438b51b69900dac7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.524
+      objectReference: {fileID: 0}
     - target: {fileID: 2312008847269019256, guid: 51066fafaa7ab93438b51b69900dac7e, type: 3}
       propertyPath: fsm.states.Array.data[0].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
       value: 
