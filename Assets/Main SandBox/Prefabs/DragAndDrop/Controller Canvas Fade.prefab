@@ -10570,16 +10570,24 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GameObjectCompareTag
         - HutongGames.PlayMaker.Actions.GameObjectCompareTag
         - HutongGames.PlayMaker.Actions.GameObjectCompareTag
+        - HutongGames.PlayMaker.Actions.GameObjectCompareTag
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000060000000c000000
-        actionHashCodes: 7b3126027b3126027b312602
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000060000000c00000012000000
+        actionHashCodes: 7b3126027b3126027b3126027b312602
         unityObjectParams: []
         fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 944063595417359317}
         - useVariable: 0
           name: 
           tooltip: 
@@ -10624,6 +10632,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: playerSize3
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: playerSize4
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -10631,6 +10645,12 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -10661,12 +10681,14 @@ MonoBehaviour:
         - 
         - size3
         - 
-        byteData: 010101
+        - size3
+        - 
+        byteData: 01010101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000017000000170000001100000001000000130000001200000017000000170000001100000001000000130000001200000017000000170000001100000001000000
+        paramDataType: 130000001200000017000000170000001100000001000000130000001200000017000000170000001100000001000000130000001200000017000000170000001100000001000000130000001200000017000000170000001100000001000000
         paramName:
         - gameObject
         - tag
@@ -10686,8 +10708,14 @@ MonoBehaviour:
         - falseEvent
         - storeResult
         - everyFrame
-        paramDataPos: 000000000000000000000000010000000000000000000000010000000100000002000000030000000100000001000000020000000200000004000000050000000200000002000000
-        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
+        - gameObject
+        - tag
+        - trueEvent
+        - falseEvent
+        - storeResult
+        - everyFrame
+        paramDataPos: 000000000000000000000000010000000000000000000000010000000100000002000000030000000100000001000000020000000200000004000000050000000200000002000000030000000300000006000000070000000300000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
     - name: Chcek if Breakable Size2
       description: 
       colorIndex: 4
@@ -17760,7 +17788,7 @@ Transform:
   m_GameObject: {fileID: 944063596918840426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.2, z: 0}
-  m_LocalScale: {x: 0.90000004, y: 0.4, z: 1}
+  m_LocalScale: {x: 1.7193724, y: 0.4, z: 1.8988303}
   m_Children: []
   m_Father: {fileID: 944063595417359314}
   m_RootOrder: 7
@@ -18344,7 +18372,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544121369707197968}
-  m_LocalRotation: {x: 0.34832913, y: 0.000000027935876, z: -0.000000010381018, w: 0.9373723}
+  m_LocalRotation: {x: 0.3483291, y: -4.449965e-16, z: 1.077686e-15, w: 0.9373724}
   m_LocalPosition: {x: 5.4, y: 19.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21137,7 +21165,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588603206402229079}
-  m_LocalRotation: {x: 0.34832913, y: -0.000000027935876, z: 0.000000010381018, w: 0.9373723}
+  m_LocalRotation: {x: 0.34832913, y: 0.000000027935876, z: -0.000000010381018, w: 0.9373723}
   m_LocalPosition: {x: 5.4, y: 19.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
