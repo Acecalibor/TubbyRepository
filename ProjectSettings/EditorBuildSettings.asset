@@ -14,19 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Idividual Levels/Matthew/Scenes/Level 1.unity
     guid: 6410609c6ad5a064993dfbcf399bd5a2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Idividual Levels/Kosta/Scenes/Level 2.unity
     guid: b0de65178eebdbd4e83fb0f090bd1f73
-  - enabled: 0
+  - enabled: 1
     path: Assets/Idividual Levels/Brianne/Scenes/Level3.unity
     guid: 8cee65c107795364db5b154824b56692
-  - enabled: 0
+  - enabled: 1
     path: Assets/Idividual Levels/Angie/Scenes/Level_5.unity
     guid: 069714587f7134743bb270b641fb75f4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Idividual Levels/Nat/Scenes/Level4.unity
     guid: 6fc68e50a2eca8443a0d11beff004497
-  - enabled: 0
+  - enabled: 1
     path: Assets/Idividual Levels/Terra/Scenes/level6.unity
     guid: 6a941818b00a25749bcfc2c06f2f0fef
   m_configObjects: {}
