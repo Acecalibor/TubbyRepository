@@ -30,9 +30,9 @@ TagManager:
   - Checkpoint
   - Bellyflop
   - PlayerDetection
-  - 
-  - 
-  - 
+  - Mask
+  - Walls
+  - PlayerCheck
   - 
   - 
   - 

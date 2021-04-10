@@ -2687,9 +2687,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5610609409986767806}
   - component: {fileID: 2206539346541424849}
+  - component: {fileID: 6619685433098213517}
   m_Layer: 0
   m_Name: WallCollider
-  m_TagString: Smashable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2718,11 +2719,246 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8909002790310974075}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.2017823, y: 6.0281315, z: 5.9820747}
   m_Center: {x: 0, y: 2.5140676, z: 0}
+--- !u!114 &6619685433098213517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8909002790310974075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: FSM
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 121
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: goToDeleteSelf
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.TriggerEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9c512400
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: playerSize4
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - goToDeleteSelf
+        byteData: 00000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000007000000120000001700000013000000
+        paramName:
+        - gameObject
+        - trigger
+        - collideTag
+        - sendEvent
+        - storeCollider
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000004000000000000000000000000000000
+    - name: State 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.DestroySelf
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 62f95203
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000
+        paramName:
+        - detachChildren
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
+    events:
+    - name: goToDeleteSelf
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 1
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
 --- !u!54 &905606786411578888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2842,21 +3078,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
---- !u!1 &9058181866930741957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -3305599050872258959, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
-  m_PrefabInstance: {fileID: 3428654693837528244}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2043493519994584029 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -5490180687854065815, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
-  m_PrefabInstance: {fileID: 3428654693837528244}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2994260972047626586 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 439320017069125102, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
-  m_PrefabInstance: {fileID: 3428654693837528244}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3686310797762451 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5793845834386210009, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
@@ -2865,11 +3086,6 @@ Transform:
 --- !u!4 &743077554197312429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2727763407944445721, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
-  m_PrefabInstance: {fileID: 3428654693837528244}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5332939879712049209 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1902929344147680115, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
   m_PrefabInstance: {fileID: 3428654693837528244}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &7542275226093100734 stripped
@@ -2912,6 +3128,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
   m_PrefabInstance: {fileID: 3428654693837528244}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5332939879712049209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1902929344147680115, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
+  m_PrefabInstance: {fileID: 3428654693837528244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6181064406472929717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -409112801894175487, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
@@ -2920,5 +3141,20 @@ GameObject:
 --- !u!4 &4206803198810719878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1582054844451936818, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
+  m_PrefabInstance: {fileID: 3428654693837528244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2043493519994584029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5490180687854065815, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
+  m_PrefabInstance: {fileID: 3428654693837528244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9058181866930741957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3305599050872258959, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
+  m_PrefabInstance: {fileID: 3428654693837528244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2994260972047626586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 439320017069125102, guid: ea27edd59f2f3454aa9f3556796139ae, type: 3}
   m_PrefabInstance: {fileID: 3428654693837528244}
   m_PrefabAsset: {fileID: 0}
