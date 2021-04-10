@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 9082622793422372227}
   - component: {fileID: 5319558946980574452}
   - component: {fileID: 8669615051540309849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderCatcher
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -110,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 447863201692656422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.199, y: 0.139, z: -1.26}
-  m_LocalScale: {x: 1.4322, y: 2.1039, z: 2.8417}
+  m_LocalScale: {x: 1.4322, y: 4.7636504, z: 2.8417}
   m_Children: []
   m_Father: {fileID: 705414935473612448}
   m_RootOrder: 7
@@ -134,8 +134,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.2032902, y: 0.42395863, z: 0.7954604}
+  m_Center: {x: -1.101645, y: 0, z: 0.10226995}
 --- !u!114 &5319558946980574452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,8 +454,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4584303, y: 1, z: 0.6016212}
-  m_Center: {x: -0.27079123, y: -0.000000008391743, z: -0.19918986}
+  m_Size: {x: 0.4584303, y: 1.3291395, z: 0.75550437}
+  m_Center: {x: -0.27079147, y: -0.00000001016164, z: -0.122247875}
 --- !u!1 &705414933897650130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1869,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

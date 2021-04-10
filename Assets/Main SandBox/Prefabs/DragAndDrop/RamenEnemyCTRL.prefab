@@ -421,6 +421,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8773577350406863932}
     m_Modifications:
+    - target: {fileID: 1122702305482400237, guid: 2751a9316e47fd7439b6a7956ab7e0e0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1122702305819999344, guid: 2751a9316e47fd7439b6a7956ab7e0e0, type: 3}
       propertyPath: m_Name
       value: Size4EnemyNavMeshCTRL

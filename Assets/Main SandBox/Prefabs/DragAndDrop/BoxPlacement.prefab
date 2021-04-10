@@ -370,8 +370,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.288798, y: 2.1112301, z: 1.2281187}
-  m_Center: {x: -0.00031375885, y: -1.7157542e-15, z: 0.3792644}
+  m_Size: {x: 2.288798, y: 2.1112301, z: 0.9336563}
+  m_Center: {x: -0.00031375885, y: -2.5532156e-16, z: 0.23203328}
 --- !u!114 &9099330552991938029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,6 +592,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9bd4a389e89ce744e8320092e3a730ad, type: 3}
       propertyPath: m_Name
       value: crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bd4a389e89ce744e8320092e3a730ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9bd4a389e89ce744e8320092e3a730ad, type: 3}
       propertyPath: m_TagString

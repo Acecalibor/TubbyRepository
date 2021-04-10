@@ -481,6 +481,10 @@ PrefabInstance:
       propertyPath: m_AngularSpeed
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 2312008847606440935, guid: 51066fafaa7ab93438b51b69900dac7e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2312008848006530233, guid: 51066fafaa7ab93438b51b69900dac7e, type: 3}
       propertyPath: m_Enabled
       value: 0

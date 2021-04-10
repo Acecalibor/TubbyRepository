@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2714316344326008600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.199, y: 0.139, z: -1.26}
-  m_LocalScale: {x: 1.3532605, y: 2.1039, z: 2.8417}
+  m_LocalScale: {x: 1.3532605, y: 1.7988557, z: 2.8417}
   m_Children: []
   m_Father: {fileID: 2714316346102044675}
   m_RootOrder: 7
@@ -53,8 +53,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.3522727, y: 1, z: 0.78914547}
+  m_Center: {x: -1.1761372, y: 0, z: 0.10542812}
 --- !u!114 &2714316344326008601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +273,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -1735,7 +1735,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1821,8 +1821,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4584303, y: 1, z: 0.6016212}
-  m_Center: {x: -0.27079123, y: -0.000000008391743, z: -0.19918986}
+  m_Size: {x: 0.4584303, y: 1.3085563, z: 0.80703926}
+  m_Center: {x: -0.27079132, y: -0.0000000034577285, z: -0.09648209}
 --- !u!1001 &2714316344866997942
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3293,7 +3293,7 @@ GameObject:
   - component: {fileID: 8185780836605098997}
   - component: {fileID: 8820188473961579334}
   - component: {fileID: 1021238993397813892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerColliderChecker
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
