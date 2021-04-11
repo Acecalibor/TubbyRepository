@@ -33,15 +33,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2724eae353681324ba606bfaf23acb23, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 45f6c0c8f9345304c9463a2a01952f10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_7749507145ac4824810984bfd007041f:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5e4ed7863efe4dc45a7d5bd4047ed1a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_c93f84d87e74402288ffbd46ff87b108:
