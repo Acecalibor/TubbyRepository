@@ -6,7 +6,17 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Idle
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainTexture
+    second: {fileID: 2100000, guid: a51fc8286a52b314c9d874d822135ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticTopper
+    second: {fileID: 2100000, guid: a51fc8286a52b314c9d874d822135ebd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +76,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 4
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -117,7 +127,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 4
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -126,7 +136,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
