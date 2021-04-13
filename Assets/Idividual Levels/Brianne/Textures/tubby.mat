@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tubby
+  m_Name: tubby
   m_Shader: {fileID: -6465566751694194690, guid: 908b297a089ba8a41966bfa4c22e47a1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
