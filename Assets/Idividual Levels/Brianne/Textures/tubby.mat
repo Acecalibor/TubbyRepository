@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tubby
+  m_Name: Tubby
   m_Shader: {fileID: -6465566751694194690, guid: 908b297a089ba8a41966bfa4c22e47a1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,27 +20,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1:
-<<<<<<< HEAD:Assets/Idividual Levels/Brianne/Textures/tubby.mat
         m_Texture: {fileID: 2800000, guid: c6cd71317202ae94192e954e5168b062, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
-        m_Texture: {fileID: 2800000, guid: 5e4bc5e0c38e43949971c0945e082499, type: 3}
+        m_Texture: {fileID: 2800000, guid: f0baf215906ee96459eb236d61af3ec0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_7749507145ac4824810984bfd007041f:
         m_Texture: {fileID: 2800000, guid: c95d832ced591734882678a11326302f, type: 3}
-=======
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_7749507145ac4824810984bfd007041f:
-        m_Texture: {fileID: 0}
->>>>>>> 5c1886bd438a6ec681000c8c53c4584a3ac7145e:Assets/Idividual Levels/Brianne/Textures/Tubby/tubby.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_c93f84d87e74402288ffbd46ff87b108:
@@ -105,7 +93,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1f54a00337f34438ad44ed4adfb8690b: 2
-    - Vector1_7151bbb042ce4956a4662e1ee1a0f4cd: 1
+    - Vector1_7151bbb042ce4956a4662e1ee1a0f4cd: 0.31
     - Vector1_b810bf39e74d4dbbac13de0a32401946: 3
     - _AlphaClip: 0
     - _Blend: 0
@@ -140,7 +128,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6897321036078356211
+--- !u!114 &3077401413502255258
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
