@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 705414933831797033}
   - component: {fileID: 705414933831797039}
   - component: {fileID: 705414933831797038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BeelyFlopPlace
   m_TagString: Breakable3
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -428,13 +428,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705414933831797032}
-  m_LocalRotation: {x: 0.000000014901161, y: 0.19538711, z: 0.00000014901161, w: 0.98072624}
-  m_LocalPosition: {x: -1.067, y: 0.18175805, z: -0.711}
-  m_LocalScale: {x: 1, y: 1, z: 2.3870404}
+  m_LocalRotation: {x: 0.000000059604645, y: 0.012432918, z: 0.000000029802322, w: 0.99992275}
+  m_LocalPosition: {x: -0.827, y: 0.18175805, z: -0.711}
+  m_LocalScale: {x: 3.8521, y: 1, z: 2.3870404}
   m_Children: []
   m_Father: {fileID: 705414933897650131}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 22.535, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1.425, z: 0}
 --- !u!33 &705414933831797039
 MeshFilter:
   m_ObjectHideFlags: 0

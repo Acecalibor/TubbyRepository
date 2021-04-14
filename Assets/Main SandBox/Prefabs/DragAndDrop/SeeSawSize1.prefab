@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 8838937052325497845}
   - component: {fileID: 8838937052325497846}
   - component: {fileID: 8555048083472747796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderCatcher
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -1686,7 +1686,7 @@ GameObject:
   - component: {fileID: 8838937053586194954}
   - component: {fileID: 8838937053586194952}
   - component: {fileID: 8838937053586194953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BeelyFlopPlace
   m_TagString: Breakable1
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -1700,13 +1700,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8838937053586194955}
-  m_LocalRotation: {x: 0.000000014901161, y: 0.19538711, z: 0.00000014901161, w: 0.98072624}
-  m_LocalPosition: {x: -1.139, y: 0.232, z: -0.886}
-  m_LocalScale: {x: 1, y: 1, z: 2.1417603}
+  m_LocalRotation: {x: -0, y: -0.005892039, z: -0.00000005960465, w: 0.99998266}
+  m_LocalPosition: {x: -0.807, y: 0.232, z: -0.783}
+  m_LocalScale: {x: 3.6083543, y: 1, z: 2.1417603}
   m_Children: []
   m_Father: {fileID: 8838937052211019756}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 22.535, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.675, z: 0}
 --- !u!33 &8838937053586194952
 MeshFilter:
   m_ObjectHideFlags: 0
