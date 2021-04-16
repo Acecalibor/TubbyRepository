@@ -2632,8 +2632,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.2437005}
+  m_Center: {x: 0, y: 0, z: 0.62185025}
 --- !u!114 &2312008848852672420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3019,7 +3019,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -3034,7 +3034,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
