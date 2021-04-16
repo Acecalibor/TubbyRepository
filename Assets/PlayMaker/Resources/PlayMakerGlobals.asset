@@ -74,3 +74,4 @@ MonoBehaviour:
   - Attack
   - Rotate
   - lookAt
+  - GotHurt
