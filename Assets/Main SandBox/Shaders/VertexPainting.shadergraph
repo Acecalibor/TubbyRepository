@@ -430,6 +430,20 @@
             },
             "m_InputSlot": {
                 "m_Node": {
+                    "m_Id": "5bc98172c5c34f398e4d338ecae9a2bf"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "67a80a7e89e94bc4a812c1c8fd865be8"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
                     "m_Id": "785a33fa1e224cc59f1dfff259eeb830"
                 },
                 "m_SlotId": 1
@@ -447,6 +461,20 @@
                     "m_Id": "b355b64c4b4847c5b497501dea5e6f2d"
                 },
                 "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "830c75a9cf0e40d696afc6b3b10f75e4"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "220bb30d35544279ad26e0a1df9c2e6f"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -578,6 +606,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "b7e16bc1d9d84097a974e69fdaea0e49"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c6972621d9b4459fa16f4413e1c05169"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "c362127f8a0b489ca95c62da31030e75"
                 },
                 "m_SlotId": 1
@@ -643,6 +685,20 @@
                     "m_Id": "3199c242b0b04122b0668a1e16629913"
                 },
                 "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "e1c22abecc1b4f50a2807cc31ef0fcf7"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "1b74b6ba577046fab6638d9fd4e60482"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -4249,7 +4305,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 0.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
