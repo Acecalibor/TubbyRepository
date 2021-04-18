@@ -134,8 +134,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2032902, y: 0.42395863, z: 0.7954604}
-  m_Center: {x: -1.101645, y: 0, z: 0.10226995}
+  m_Size: {x: 3.2032902, y: 1.2978827, z: 1.7988971}
+  m_Center: {x: -1.101645, y: 0, z: -0.3994483}
 --- !u!114 &5319558946980574452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,7 +1950,7 @@ GameObject:
   - component: {fileID: 5252195506509538112}
   - component: {fileID: 246337548546429041}
   - component: {fileID: 3430503321733792584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
