@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 9132620784532334590}
   - component: {fileID: 1694487747683746981}
   - component: {fileID: 3234787373394716961}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: hurtSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ Transform:
   m_GameObject: {fileID: 5757438571623678676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2323425, y: -0.280092, z: 2.2323425}
+  m_LocalScale: {x: 4.8953624, y: -0.6142211, z: 4.8953624}
   m_Children: []
   m_Father: {fileID: 1148806445167660747}
   m_RootOrder: 0

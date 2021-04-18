@@ -2697,6 +2697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PotatoCharacter@Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 4369358362082578141, guid: 998fe06fa51d4d54bbc398c0ce8f08c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 10b29f0dfb9d26243aec6bbaa4e17ce6, type: 2}
     - target: {fileID: 5866666021909216657, guid: 998fe06fa51d4d54bbc398c0ce8f08c1, type: 3}
       propertyPath: m_Controller
       value: 
