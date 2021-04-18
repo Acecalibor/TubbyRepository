@@ -4067,7 +4067,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 336
+        x: 352
         y: 112
         width: 129
         height: 32
@@ -4239,7 +4239,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 368
         width: 137
         height: 80
@@ -4435,7 +4435,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 336
+        x: 352
         y: 256
         width: 134
         height: 48
@@ -4615,7 +4615,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 336
+        x: 352
         y: 352
         width: 135
         height: 48
@@ -4795,7 +4795,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 336
+        x: 352
         y: 464
         width: 136
         height: 48
@@ -4975,7 +4975,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 336
+        x: 352
         y: 576
         width: 136
         height: 32
@@ -5147,7 +5147,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 608
+        x: 624
         y: 592
         width: 174
         height: 32
@@ -5402,7 +5402,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 608
+        x: 624
         y: 480
         width: 174
         height: 32
@@ -5657,7 +5657,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 608
+        x: 624
         y: 368
         width: 173
         height: 32
@@ -5912,7 +5912,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 608
+        x: 624
         y: 272
         width: 172
         height: 32
@@ -6167,7 +6167,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 80
+        x: 96
         y: 240
         width: 120
         height: 48
@@ -6263,8 +6263,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 62.757812
+        y: 120.125
         width: 166
         height: 32
       isBreakpoint: 0
@@ -6281,15 +6281,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.PlaySound
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.DestroyObject
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 5e69bb049ff80c02
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000400000008000000
+        actionHashCodes: 9cdc39055e69bb049ff80c02
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -6298,7 +6300,15 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -6338,11 +6348,24 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 809793f87423ff1428c616cfe3f86725, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -6364,7 +6387,13 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         fsmVector2Params: []
-        fsmVector3Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
@@ -6375,8 +6404,12 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000130000000f00000011000000
+        paramDataType: 140000001c000000180000000f0000001f000000170000000f00000001000000130000000f00000011000000
         paramName:
+        - gameObject
+        - position
+        - clip
+        - volume
         - eventTarget
         - sendEvent
         - delay
@@ -6384,8 +6417,8 @@ MonoBehaviour:
         - gameObject
         - delay
         - detachChildren
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000
-        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000000000000000000000000000100000000000000000000000200000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -6467,7 +6500,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -25476,7 +25509,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544121369707197968}
-  m_LocalRotation: {x: 0.34832913, y: -0.000000027935876, z: 0.000000010381018, w: 0.9373723}
+  m_LocalRotation: {x: 0.34832913, y: 0.000000027935876, z: -0.000000010381018, w: 0.9373723}
   m_LocalPosition: {x: 0, y: 18.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -28231,8 +28264,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7588603206402229079}
-  m_LocalRotation: {x: 0.34832913, y: -0.000000027935876, z: 0.000000010381018, w: 0.9373723}
-  m_LocalPosition: {x: 0, y: 18.97, z: -22}
+  m_LocalRotation: {x: 0.3483291, y: -4.449965e-16, z: 1.077686e-15, w: 0.9373724}
+  m_LocalPosition: {x: 0, y: 17.97, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2588654301003058207}
